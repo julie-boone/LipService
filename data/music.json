@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "titel": "Funny Face",
+    "embedcode": "https://open.spotify.com/embed/album/0iBR4RX1ME8SS4mjfbFP8G?utm_source=generator",
+    "streamlink": "https://open.spotify.com/album/0iBR4RX1ME8SS4mjfbFP8G?si=pHunwc0tRnii00GKKqTTUw",
+    "beschrijving": "Debuutalbum uit 2023",
+    "stream": "Stream now"
+  },
+  {
+    "id": 2,
+    "titel": "Plot Twist",
+    "embedcode": "https://open.spotify.com/embed/album/7uk4mAe5oUACk1Hc99q5oz?utm_source=generator",
+    "streamlink": "https://open.spotify.com/album/7uk4mAe5oUACk1Hc99q5oz?si=1dZZU_-kTGiPmPMGg1DqGw",
+    "beschrijving": "EP uit 2020",
+    "stream": "Stream now"
+  },
+  {
+    "id": 3,
+    "titel": "People's People",
+    "embedcode": "https://open.spotify.com/embed/album/5Kg7zckDCzTRa8qdac2gQD?utm_source=generator",
+    "streamlink": "https://open.spotify.com/album/5Kg7zckDCzTRa8qdac2gQD?si=TLdL8PnvTyqvuR9jKA0t3w",
+    "beschrijving": "EP uit 2019",
+    "stream": "Stream now"
+  },
+  {
+    "id": 4,
+    "titel": "Together",
+    "embedcode": "https://open.spotify.com/embed/album/5lWz7DvIj8xhTR3q9UBb28?utm_source=generator",
+    "streamlink": "https://open.spotify.com/album/5lWz7DvIj8xhTR3q9UBb28?si=lhbzGOpgTIybN8xtDdZilA",
+    "beschrijving": "EP uit 2017",
+    "stream": "Stream now"
+  }
+]

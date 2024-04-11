@@ -1,0 +1,18 @@
+[
+    {
+        "foto": "1",
+        "naam": "carousel 1",
+        "imageURL": "images/groepsfoto_vierkant.jpg"
+    },
+
+    {
+        "foto": "2",
+        "naam": "carousel 2",
+        "imageURL": "images/groepsfoto_1.jpg"
+    },
+
+    {
+        "foto": "3",
+        "naam": "carousel 3"
+    }
+]

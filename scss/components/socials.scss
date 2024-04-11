@@ -1,0 +1,28 @@
+
+@media (max-width: 768px) 
+{ 
+    #socials {
+        visibility: hidden;
+    }
+}
+
+#socials
+{
+    top: 5rem;
+    position: fixed;
+    right: 1.5rem;
+}
+
+#socials a img
+{
+    height: 1.4rem;
+    margin: 1rem 0rem;
+    display: block;
+}
+
+#socials a img:hover
+{
+    filter: invert(27%) sepia(6%) saturate(5375%) hue-rotate(294deg) brightness(91%) contrast(86%);
+}
+
+

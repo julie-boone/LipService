@@ -1,0 +1,342 @@
+@use 'components/header.scss';
+@use 'components/socials.scss';
+@use 'components/footer.scss';
+
+/*
+--COLORS--
+* primair:      # 
+* secundair:    #
+* groen:        #5DA142;
+* blauw:        #7DA8CB; 
+* geel:         #EEE163;
+* zalm:         #F7907C;
+* bordeaux:     #80384B;
+* wit:          #F9F9F9;   
+* zwart:        #0D0D0D;
+* grijs:        # 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0D0D0D;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1vw;
+    font-weight: bolder;
+    color: #7DA8CB;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.90vw;
+}
+
+#intro-mobile {
+    visibility: hidden;
+}
+
+main {
+    min-height: 100%;
+    padding-top: 5.5rem;
+}
+
+
+main img {
+    max-width: auto;
+    max-height: auto;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+}
+
+/*
+.background-img
+{
+    opacity: 0.5;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    width: 800px;
+    height: 800px;
+}
+*/
+
+.intro {
+    padding: 4rem;
+    margin-left: auto;
+    text-align: left;
+}
+
+.member {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+}
+
+.member-text {
+    text-align: left;
+    margin: 1rem;
+}
+
+.member-2-text {
+    text-align: right;
+    margin-right: -38px;
+    margin-top: 16px;
+}
+
+.square {
+    position: relative;
+}
+
+.square::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.square img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+
+@media only screen and (max-width: 1169px) {
+
+    main img,
+    .square img {
+        position: absolute;
+        width: 85%;
+        height: 85%;
+        object-position: calc(1/2);
+    }
+
+    .intro {
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+        margin-right: 3vh;
+        margin-left: 0;
+        font-size: smaller;
+    }
+
+    h3,
+    p {
+        margin-right: auto;
+        font-size: smaller;
+    }
+
+    .member-text {
+        padding-right: 0.5vh;
+        font-size: smaller;
+    }
+
+    .member-2-text {
+        margin-right: 0.3vh;
+        font-size: smaller;
+    }
+}
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+
+    .grid,
+    .grid-col2_left_,
+    .grid-col4 {
+        display: block;
+        margin: 0;
+    }
+
+
+    .grid-col2,
+    .grid-col2_left_,
+    .grid-col3,
+    .grid-col4,
+    .grid-col4_right {
+        display: block;
+    }
+
+    #intro.intro {
+        margin-top: -80px;
+        margin-bottom: -80px;
+    }
+
+    .intro {
+        margin-left: 0;
+        margin: 4.25rem;
+        height: 20rem;
+        padding: 1rem;
+        font-size: small;
+        text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        word-spacing: -0.10em;
+    }
+
+    #intro-mobile {
+        visibility: visible;
+    }
+
+    p.intro-mobile {
+        text-transform: uppercase;
+        font-size: 7.5vw;
+        text-align: center;
+    }
+
+    .intro p {
+        margin: 0rem;
+        height: 2rem;
+    }
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: none;
+        object-position: calc(1/2);
+    }
+
+    .square img {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        margin: 4.25rem;
+        margin-top: 6%;
+        margin-bottom: 0;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
+        object-position: calc(1/2);
+    }
+
+    .square::after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+        margin-top: 0;
+        object-fit: none;
+        object-position: calc(1/2);
+    }
+
+    #square.square {
+        margin-bottom: -10px;
+        object-fit: none;
+        object-position: calc(1/2);
+    }
+
+    h3,
+    p {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        font-size: small;
+        text-align: justify;
+        justify-content: center;
+        hyphens: auto;
+        word-spacing: -0.10em;
+    }
+
+    .member {
+        margin-top: 2rem;
+        margin-bottom: 9rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .member-text {
+        font-size: small;
+        text-align: justify;
+        justify-content: center;
+        word-spacing: -0.10em;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: -125px;
+        margin-bottom: 50px;
+
+    }
+
+    .member-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .member-2-text {
+        font-size: small;
+        text-align: justify;
+        justify-content: center;
+        word-spacing: -0.20em;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: -125px;
+        margin-bottom: 90px;
+    }
+
+    .member.grid-col4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .member.grid-col4 .square.member-2 {
+        order: -1;
+    }
+
+    .member.grid-col4 .member-2-text {
+        order: -2;
+        text-align: left;
+        margin-top: -2rem;
+    }
+
+}
+
+/* bij mobile nog 1 probleem:
+afstand tussen text Roel en foto van Matthijs */
+
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+
+.grid-col2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-col2_left {
+    grid-template-columns: 1fr 5fr;
+}
+
+.grid-col2_left_ {
+    grid-template-columns: 2fr 4fr;
+}
+
+.grid-col3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-col4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.grid-col4_right {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

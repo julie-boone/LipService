@@ -1,0 +1,133 @@
+@use 'components/header.scss';
+@use 'components/socials.scss';
+@use 'components/footer.scss';
+
+/*
+--COLORS--
+* primair:      # 
+* secundair:    #
+* groen:        #5DA142;
+* blauw:        #7DA8CB; 
+* geel:         #EEE163;
+* zalm:         #F7907C;
+* bordeaux:     #80384B;
+* wit:          #F9F9F9;   
+* zwart:        #0D0D0D;
+* grijs:        #2e2e2e; 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body 
+{
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#0D0D0D;
+}
+
+h1, h2
+{
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+main
+{
+    min-height: 100%;
+    padding-top: 7rem;
+}
+
+
+.grid
+{
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+.grid-col2
+{
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.grid-col3
+{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main h2
+{
+    font-size: 30px;
+    margin-left: 1rem;
+}
+
+#tourdates_past
+{
+    padding-bottom: 15rem;
+    color: #5f5f5f;
+    max-width: 900px;
+    margin-left: 1rem;
+}
+
+#tourdates_upcoming
+{
+    max-width: 900px;
+    margin-left: 1rem;
+}
+
+
+main .tickets
+{
+    border: 1px solid #0D0D0D;
+    padding: 0.2rem 2rem;
+    border-radius: 1rem;
+    top: 0.4rem;
+    position: relative;
+    background-color: #5f5f5f;
+    color: #F9F9F9;
+}
+
+#tourdates_past .tickets
+{
+    text-decoration: line-through;
+}
+
+#tourdates_upcoming .tickets
+{
+    text-decoration: none;
+}
+
+main .niet_uitverkocht
+{
+    visibility: hidden;
+}
+
+
+main .uitverkocht
+{
+    z-index: 20;
+    position: relative;
+    margin-top: -0.4rem;
+    margin: 0 2rem;
+    padding: 0 0.2rem;
+    width: fit-content;
+    background-color: #7DA8CB;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+main .weekday
+{
+    font-size: 18px;
+}
+
+main .location_column
+{
+    min-width: 180px;
+}
+
+main .date_column
+{
+    min-width: 121px;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "grid-col2_left_",
+    "imageURL": "images/a1.jpg",
+    "altText": "member's head picture",
+    "introText": "De eigenzinnige songs van Lip Service zijn besmettelijk: blootstelling aan de afbrokkelende grooves, kleverige melodieën en zure gitaren kan leiden tot gebroken popharten en struikelende dansbenen.<br>Hun twee Lp's kregen niets dan lof van Studio Brussel, Radio 1, Humo, Dansende Beren, Indiestyle en daMusic."
+  },
+  {
+    "type": "grid-col4",
+    "members": [
+      {
+        "imageURL": "images/Hannah.jpg",
+        "altText": "Hannah",
+        "name": "Hannah Cornelus",
+        "gender": "♀",
+        "city": "Gent (BE)",
+        "role": "Bas en backing vocal. Ook te horen bij PEGA en Vlerk."
+      },
+      {
+        "imageURL": "images/Kasper.jpg",
+        "altText": "Kasper",
+        "name": "Kasper Cornelus",
+        "gender": "♂",
+        "city": "Gent (BE)",
+        "role": "Gitaar en lead zang. Vind je ook op het podium bij Flip Kowlier en Ertebrekers."
+      }
+    ]
+  },
+  {
+    "type": "grid-col4",
+    "members": [
+      {
+        "imageURL": "images/Roel.jpg",
+        "altText": "Roel",
+        "name": "Roel Delplancke",
+        "gender": "♂",
+        "city": "Avelgem (BE)",
+        "role": "Drums en backing vocal."
+      },
+      {
+        "imageURL": "images/Mathijs.jpg",
+        "altText": "Mathijs",
+        "name": "Mathijs Steels",
+        "gender": "♂",
+        "city": "Antwerpen (BE)",
+        "role": "Toetsen - Percussie - Keys. Hoorde je ook al bij Shht."
+      }
+    ]
+  }
+]

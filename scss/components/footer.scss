@@ -1,0 +1,111 @@
+
+footer
+{
+    position: fixed;
+    margin-top: 6rem;
+    background-color:#7DA8CB; 
+    color:#0D0D0D;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #0D0D0D;
+    font-size: 0.8rem;
+    z-index: 100;
+}
+
+footer a.booking
+{
+    font-size: 0.8rem;
+    background-color: #F9F9F9;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    padding: 0.1rem 0.8rem;
+    border-radius: 0.8rem;
+    border: 0.03rem solid #0D0D0D;
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+
+form 
+{
+    text-align: right;
+    z-index: +900;
+}
+
+form p
+{
+    font-size: 0.9rem;
+}
+
+form input
+{
+    justify-self: right;
+    margin: 0.2rem 0;
+    padding: 0.1rem 0.8rem;
+    border-radius: 0.8rem;
+    border: 0.03rem solid #0D0D0D;
+}
+
+form input#submit
+{
+    background-color: #2e2e2e;
+    color: #F9F9F9;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.8rem; 
+}
+
+#copyright
+{
+    padding: 0 1rem;
+    align-self: center;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+
+
+
+footer.homepage
+{
+    padding: 0.3rem 2rem;
+}
+
+footer.homepage a.booking
+{
+    align-self: right;
+    padding: 0rem 0.8rem;
+}
+
+footer.homepage #copyright
+{
+    align-self: left;
+    padding: 0rem 0.8rem;
+    width: fit-content;
+}
+
+
+@media (max-width: 769px) 
+{
+    footer.homepage
+    {
+    padding: 0.4rem 0.8rem;
+    }
+
+    #copyright
+    {
+        display: block;
+        align-self: center;
+        width: max-content;
+    }
+
+    a.booking 
+    {
+        display: block;
+        align-self: center;
+    }
+}
+

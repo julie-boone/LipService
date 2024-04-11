@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "product": "T-shirt",
+    "name": "Fan T-shirt",
+    "color": "roze",
+    "description": "T-shirt met logo van de bandleden",
+    "imageURL": "images/blur tshirt pink_FINAL.jpg",
+    "price": {
+      "text": "25EUR",
+      "href":"./product-shop.html"
+    },
+    "sold out": true
+  },
+  {
+    "id": 2,
+    "product": "CD",
+    "name": "LIP SERVICE",
+    "color": "blauw",
+    "description": "CD van 2019",
+    "imageURL": "images/cd_FINAL.jpg",
+    "price": {
+      "text": "22EUR",
+      "href":"./product-shop.html"
+    },
+    "tracklist":["Song 1", "Song 2", "Song 3", "Song 4", 
+                  "Song 5", "Song 6"],
+    "sold out": false
+  },
+  {
+    "id": 3,
+    "product": "Vinyl",
+    "name": "Funny Face",
+    "color": "geel",
+    "description": "Vinylplaat van hun nieuwste album",
+    "imageURL": "images/elpee_vierkant.jpg",
+    "price": {
+      "text": "24EUR",
+      "href":"./product-shop.html"
+    },
+    "tracklist":["Humble Me", "Funny Face", "New Hands", "Flood", 
+                  "Stone Age", "Cars,Tattoos,Stars", "Singing As Someone Else", 
+                  "Luck", "The Relief"],
+    "sold out": false
+  },
+  {
+    "id": 4,
+    "product": "Totebag",
+    "name": "Cars, Tattoos, Star totebag",
+    "color": "paars",
+    "description": "Totebag met logo van de bandleden",
+    "imageURL": "images/totebag_final.jpg",
+    "price": {
+      "text": "20EUR",
+      "href":"./product-shop.html"
+    },
+    "sold out": false
+  },
+  {
+    "id": 5,
+    "product": "T-shirt",
+    "name": "Fan T-shirt",
+    "color": "wit",
+    "description": "T-shirt met foto van de bandleden",
+    "imageURL": "images/tshirt_white_final.jpg",
+    "price": {
+      "text": "25EUR",
+      "href":"./product-shop.html"
+    },
+    "sold out": true
+  },
+  {
+    "id": 6,
+    "product": "CD",
+    "name": "People's People",
+    "color": "blauw",
+    "description": "EP van 2019",
+    "imageURL": "images/EP_PEOPLE.jpg",
+    "price": {
+      "text": "22EUR",
+      "href":"./product-shop.html"
+    },
+    "tracklist":["People's People", "As If I Haven't Heard That Song", "Lift Up Your Skirt", "Out Of Place", 
+                  "Pretty Sure", "Hard Shoulder"],
+    "sold out": false
+  }
+]

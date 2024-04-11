@@ -1,0 +1,30 @@
+[
+  {
+    "titel": "LIP SERVICE",
+    "logo": {
+      "href": "./index.html"
+    },
+    "nav": [
+      {
+        "Home": {
+          "href": "./index.html"
+        },
+        "About Us": {
+          "href": "./about_us.html"
+        },
+        "Tour Dates": {
+          "href": "./tour_dates.html"
+        },
+        "Music": {
+          "href": "./music.html"
+        },
+        "Video": {
+          "href": "./video.html"
+        },
+        "Shop": {
+          "href": "./shop.html"
+        }
+      }
+    ]
+  }
+]
